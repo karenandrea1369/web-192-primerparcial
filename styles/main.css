@@ -22,3 +22,8 @@ body{
     transition: transform 2s ease;
     transform-origin: center left;
 }
+
+.grades{
+    text-align: center;
+    font-size: 40px;
+}
