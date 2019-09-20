@@ -1,6 +1,24 @@
+body{
+    margin: 0px;
+}
+
 .poten{
     width: 100%;
-    height:  600px;
-    background-image: url("../data/circle.jpg");
-    
+    height:  706px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poten__circle{
+    top: 0px;
+    left: 15%;
+    position: absolute;
+    z-index: -3;
+}
+
+.poten__arrow{
+    transform-origin: center left;
+    transform: rotate(45deg);
 }
