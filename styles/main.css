@@ -19,6 +19,7 @@ body{
 }
 
 .poten__arrow{
+    translate: transform 2s ease;
     transform-origin: center left;
     transform: rotate(45deg);
 }
